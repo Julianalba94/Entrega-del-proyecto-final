@@ -1,0 +1,339 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+    body{
+    font-family: sans-serif;
+    background-color: ghostwhite;
+    }
+
+    header{
+        background-color: rgb(245, 120, 37);
+        padding: 25px;
+        margin-top: 0%;
+    }
+    
+    .btn{
+        border-color:white;
+        background-color: rgb(245, 120, 37);
+        color: white;
+    }
+
+    .btn-group{
+        position: relative;
+        display:inline flex;flex-wrap: wrap;
+    }
+
+    .dropdown-item{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .filtros{
+        padding: 12px;
+        margin:5px;
+        border-bottom:2px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row wrap;
+        justify-content: space-between;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .li{
+        width: min-content;
+        max-height: max-content;
+    }
+
+.Lonuevo{
+        font-size: 35px;
+        text-align: center;
+        background-color: rgb(245, 120, 37);
+        color: rgb(252, 252, 252);
+        padding: 15px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgb(0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 4.s;
+    background: #f2f2f2;
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px -8px);
+}
+
+.imgcards{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin:  0 auto;
+    display: block;
+    border-radius: 8%;
+}
+
+.p{
+    text-align: center;
+    color: orange;
+    padding-top: 0 8px;
+}
+
+
+
+.h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+h6{
+    font-size: 24px;
+    text-align: center;
+    color:rgb(245, 120, 37);
+    margin: 0;
+}
+
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width:100%;
+    }
+}
+
+
+.opciones-compra{
+    background-color: rgb(245, 120, 37);
+    color: white;
+    padding: 25px;
+    justify-content:center;
+}
+
+.volver{
+    text-decoration: none;
+    color:black;
+}
+.galeria2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.content2{
+    width: 470px;
+    height: 434px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0 2px 2px rgb(0,0,0.25), 0 1px 1px rgba(0,0,0,0.22);
+}
+
+.carousel-inner-camiseta{
+    width: 412px;
+    height:auto;
+    margin:  0 auto;
+    display: block;
+    border-radius: 8%;
+}
+
+.carrusell{
+    width: 200px;
+}
+
+.camiseta-descripcion{
+    background-color;
+    float: right;
+    width: 485px;
+    padding: 6px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    justify-content:end;
+}
+
+.titulo{
+    color: rgb(245, 120, 37);
+    font-size: 25px;
+}
+
+.marcades{
+    font-size:17px;
+    font-style: italic;
+    
+}
+
+.preciodes{
+    font-size: x-large;
+    color: rgb(245, 120, 37);
+}
+
+.productore{
+    text-decoration: none;
+    color:black;
+}
+
+.button{
+    padding: 3px;
+}
+
+.tallas{
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    cursor: pointer;    
+    transition: 4.s;
+    background: #f2f2f2;
+}
+
+.tallam{
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    cursor: pointer;    
+    transition: 4.s;
+    background: #f2f2f2;
+}
+
+.tallal{
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    cursor: pointer;    
+    transition:0.4s;
+    background: #f2f2f2;
+}
+
+.tallaxl{
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    cursor: pointer;    
+    transition:0.4s;
+    background: #f2f2f2;
+}
+
+.tallas .tallam .tallal .tallaxl:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px -8px);
+}
+
+.carrito{
+    height: 50px;
+    width: 460px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border-color:rgb(245, 120, 37);
+    background-color: rgb(245, 120, 37);
+    color: white;
+}
+
+
+footer{
+    padding: 1px;
+    background-color:rgb(245, 120, 37);
+    display: flex;
+}
+
+.footergo{
+    padding: 4%;
+    margin: 0.5px;
+    color: white;
+}
+
+.footerlinkinteres{
+    padding: 4%;
+    margin: 0.5px;
+    color: white;
+}
+
+.footersiguenos{
+    padding: 3%;
+    margin: 5px;
+    color: white;
+}
+
+.footermetodospago{
+    padding: 4%;
+    margin: 5px;
+    color: white;
+
+}
+
+.mercadopagoimg{
+    width: 50px;
+}
+
+.iconopse{
+    width: 50px; 
+}
+
+.iconoefecty{
+    width: 50px;
+}
+
+.iconoatras{
+    width: 20px;
+}
+
+.logogo{
+    width: 110px;
+}
+.logo2{
+    padding: 4%;
+    margin: 5px;
+    align-items: center;
+    color: white;
+}
+.icofb{
+    width: 50px; 
+}
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
